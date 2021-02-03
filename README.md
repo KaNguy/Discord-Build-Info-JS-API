@@ -1,5 +1,5 @@
 <p>
-    <a href="https://github.com/KaNguy/Discord-Build-Info-JS-API/issues"><img src="https://img.shields.io/github/issues/KaNguy/Discord-Build-Info-JS-API" alt="Issues" /></a>
+    <a href="https://github.com/KaNguy/Discord-Build-Info-JS-API/issues"><img src="https://img.shields.io/github/issues/KaNguy/Discord-Build-Info-JS-API" alt="Issues"/></a>
     <a href="https://github.com/KaNguy/Discord-Build-Info-JS-API/network/members"><img src="https://img.shields.io/github/forks/KaNguy/Discord-Build-Info-JS-API" alt="Forks" /></a>
     <a href="https://github.com/KaNguy/Discord-Build-Info-JS-API/stargazers"><img src="https://img.shields.io/github/stars/KaNguy/Discord-Build-Info-JS-API" alt="Stars" /></a>
     <a href="LICENSE.md"><img src="https://img.shields.io/github/license/KaNguy/discord-build-info-js-api?color=007ace" alt="License" /></a>
