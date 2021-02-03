@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DBIJS API</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        #grad {
+            height: 100%;
+            background: linear-gradient(to bottom, #33ccff 0%, #0099ff 100%) no-repeat center center fixed;
+            top: 0;
+            left: 0;
+            background-size: 100%;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        /* Using this just in case */
+        #background1 {
+            height: 100%;
+            background: #ffffff;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+
+<div id="grad">
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Discord Build Info JS API</h1>
+            <p>A miniature and concise API for returning the build information on Discord's clients.</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>About</h3>
+                <p>The API has three dynamic endpoints which correspond to <mark>build/{release-channel}</mark>, and return the build information accordingly.</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Use</h3>
+                <p>Based on the library, Discord-Build-Info-JS, this API makes it extremely easy on getting Discord's clients' build information like the build number, hash, and ID.</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Mini-Documentation</h3>
+                <p>To get the build information from the API, simply make a <mark>GET</mark> request on the endpoint (<mark>/build/{release-channel}</mark>) with any module or library that can perform that and the information is returned. Other requests will be rejected.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script src="src/index.js"></script>
+
+</body>
+</html>
