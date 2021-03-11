@@ -5,7 +5,7 @@
   "bin": "src/index.js",
   "dependencies": {},
   "devDependencies": {
-    "discord-build-info-js": "^1.0.4"
+    "discord-build-info-js": "^1.0.6"
   },
   "homepage": "https://github.com/KaNguy/Discord-Build-Info-JS-API/#readme"
 }
