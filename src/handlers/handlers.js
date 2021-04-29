@@ -24,7 +24,7 @@ class Handlers {
                 if (body.length > 1e7) {
                     response.end(JSON.stringify({ "error": http.STATUS_CODES[413] }, null, 3));
                 }
-                const str = Buffer.concat(body).toString();
+                //const str = Buffer.concat(body).toString();
                 //const json = JSON.parse(str);
                 return http.STATUS_CODES[200];
             });
