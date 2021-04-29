@@ -1,5 +1,5 @@
 const fs = require('fs');
-const Methods = require('../handlers/Methods.js');
+const Methods = require('./handlers.js');
 const methods = new Methods();
 
 module.exports = (request, response) => {
