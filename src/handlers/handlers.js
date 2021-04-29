@@ -1,6 +1,6 @@
 const http = require('http');
 
-class Methods {
+class Handlers {
     constructor(options = {}) {
         this.options = options ? options : {};
     }
@@ -19,13 +19,13 @@ class Methods {
             response.writeHead(200, { 'Content-Type': 'application/json' });
 
             let body = "";
-            request.on("data", chunk => body += chunk);
+            request.on("data", chunk => body += chunk.toString());
             request.on("end", () => {
-                if (request.body > 1e7) {
+                if (body.length > 1e7) {
                     response.end(JSON.stringify({ "error": http.STATUS_CODES[413] }, null, 3));
                 }
                 const str = Buffer.concat(body).toString();
-                const json = JSON.parse(str);
+                //const json = JSON.parse(str);
                 return http.STATUS_CODES[200];
             });
             return http.STATUS_CODES[200];
@@ -68,4 +68,4 @@ class Methods {
     }
 }
 
-module.exports = Methods;
+module.exports = Handlers;
