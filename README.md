@@ -22,7 +22,7 @@ Assuming the application or client using the API is using the HTTP core module, 
 let options = {
     hostname: `HOST_NAME_HERE`,
     method: "GET",
-    path: "/build/{release-channel}",
+    path: "/build/{release-channel}"
 }
 
 http.get(options, callback => {
